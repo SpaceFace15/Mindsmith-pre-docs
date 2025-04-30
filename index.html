@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mindsmith Docs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Light Theme Base -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+
+  <!-- Darklight Theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css">
+
+  <style>
+    body, .sidebar, .markdown-section, .app-nav {
+      transition: background-color 0.5s, color 0.5s;
+    }
+
+    .custom-header {
+      position: fixed;
+      top: 10px;
+      right: 20px;
+      z-index: 9999;
+    }
+
+    .markdown-section > ul:first-of-type {
+      margin: 0 auto 2em auto;
+      max-width: 600px;
+    }
+
+    .app-name {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">Loading...</div>
+
+  <div class="custom-header">
+    <div id="darklight-toggle"></div>
+  </div>
+
+  <script>
+    window.$docsify = {
+      name: 'Mindsmith Docs',
+      repo: '',
+      loadSidebar: true,
+      subMaxLevel: 1,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      themeColor: '#3f51b5',
+      darklightTheme: {
+        siteFont: "Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif",
+        defaultTheme: "light",
+        codeFontFamily: "Roboto Mono, Monaco, courier, monospace",
+        bodyFontSize: "17px",
+        dark: {
+          background: "#121212",
+          highlightColor: "#ff9800",
+          sidebarBackground: "#1e1e1e",
+          sidebarTextColor: "#cfcfcf",
+          sidebarHighlightColor: "#90caf9",
+          sidebarTitleColor: "#ffffff",
+          codeBackgroundColor: "#2d2d2d",
+          textColor: "#e0e0e0",
+          codeTextColor: "#ccc"
+        },
+        light: {
+          background: "#ffffff",
+          highlightColor: "#3f51b5",
+          sidebarBackground: "#f5f5f5",
+          sidebarTextColor: "#2c3e50",
+          sidebarHighlightColor: "#3f51b5",
+          sidebarTitleColor: "#333333",
+          codeBackgroundColor: "#f8f8f8",
+          textColor: "#2c3e50",
+          codeTextColor: "#525252"
+        }
+      }
+    };
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const darklightToggle = document.querySelector('.darklight-toggle');
+      const toggleHolder = document.getElementById('darklight-toggle');
+      if (darklightToggle && toggleHolder) {
+        toggleHolder.appendChild(darklightToggle);
+      }
+    });
+  </script>
+</body>
+</html>
