@@ -151,6 +151,7 @@ The FAQ section is a quick-access bank of frequently asked questions grouped by 
 
 ![FAQ Preview](./FAQDocument.png)
 
+
 <figcaption align="center">Figure: FAQ section with expandable questions grouped by theme</figcaption>
 
 ---
