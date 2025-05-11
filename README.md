@@ -102,7 +102,7 @@ The User Guide is the primary resource for navigating the full functionality of 
 
 **Placeholder Image:**
 
-![User Guide Preview](link-to-image-placeholder)
+![User Guide Preview](./Userguide.png)
 
 <figcaption align="center">Figure: Screenshot preview of Mindsmith's platform walkthrough in the User Guide</figcaption>
 
@@ -127,7 +127,7 @@ The API Reference is a structured, developer-facing document that details how to
 
 **Placeholder Image:**
 
-![API Reference Preview](link-to-api-reference-placeholder)
+![API Reference Preview](./APIPreview.png)
 
 <figcaption align="center">Figure: API Reference sample showing Courses endpoint with sample cURL request</figcaption>
 
@@ -175,7 +175,7 @@ Tutorials are guided walkthroughs of real-world use cases and advanced platform 
 
 **Placeholder Image:**
 
-![Tutorials Preview](link-to-tutorial-placeholder)
+![Tutorials Preview](./Quick.png)
 
 <figcaption align="center">Figure: Example tutorial on auto-generating lessons with AI showing before/after lesson preview</figcaption>
 
@@ -207,7 +207,7 @@ Tutorials are guided walkthroughs of real-world use cases and advanced platform 
 
 ## 7. Tools and Technologies <a id="tools-and-technologies"></a>
 
-- **Docsify** for lightweight hosting
+- **Docusaurus** for lightweight hosting
 - **Markdown** for content creation
 - **GitHub** for source control
 - **VS Code** for editing
