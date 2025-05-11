@@ -100,8 +100,6 @@ The User Guide is the primary resource for navigating the full functionality of 
 - Embedded screenshots, tooltips, and pro tips
 - Contextual examples for each feature
 
-**Placeholder Image:**
-
 ![User Guide Preview](./Userguide.png)
 
 <figcaption align="center">Figure: Screenshot preview of Mindsmith's platform walkthrough in the User Guide</figcaption>
@@ -151,7 +149,7 @@ The FAQ section is a quick-access bank of frequently asked questions grouped by 
 
 **Placeholder Image:**
 
-![FAQ Preview](link-to-faq-placeholder)
+![FAQ Preview](./FAQDocument.png)
 
 <figcaption align="center">Figure: FAQ section with expandable questions grouped by theme</figcaption>
 
