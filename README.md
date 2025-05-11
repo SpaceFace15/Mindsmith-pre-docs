@@ -123,7 +123,7 @@ The API Reference is a structured, developer-facing document that details how to
 - Example requests and JSON responses
 - Developer best practices and security notes
 
-**Placeholder Image:**
+
 
 ![API Reference Preview](./APIPreview.png)
 
