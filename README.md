@@ -102,7 +102,7 @@ The User Guide is the primary resource for navigating the full functionality of 
 
 ![User Guide Preview](./Userguide.png)
 
-<figcaption align="center">Figure: Screenshot preview of Mindsmith's platform walkthrough in the User Guide</figcaption>
+<figcaption align="center">Figure 1: Screenshot preview of Mindsmith's platform walkthrough in the User Guide</figcaption>
 
 ---
 
@@ -127,7 +127,7 @@ The API Reference is a structured, developer-facing document that details how to
 
 ![API Reference Preview](./APIPreview.png)
 
-<figcaption align="center">Figure: API Reference sample showing Courses endpoint with sample cURL request</figcaption>
+<figcaption align="center">Figure 2: API Reference sample showing Courses endpoint with sample cURL request</figcaption>
 
 ---
 
@@ -147,12 +147,11 @@ The FAQ section is a quick-access bank of frequently asked questions grouped by 
 - Quick links to deeper guides
 - Categorized layout with collapsible sections
 
-**Placeholder Image:**
 
 ![FAQ Preview](./FAQDocument.png)
 
 
-<figcaption align="center">Figure: FAQ section with expandable questions grouped by theme</figcaption>
+<figcaption align="center">Figure 3: FAQ section with expandable questions grouped by theme</figcaption>
 
 ---
 
@@ -172,11 +171,11 @@ Tutorials are guided walkthroughs of real-world use cases and advanced platform 
 - “What You’ll Learn” preview block
 - Screenshots and embedded video demonstrations
 
-**Placeholder Image:**
+
 
 ![Tutorials Preview](./Quick.png)
 
-<figcaption align="center">Figure: Example tutorial on auto-generating lessons with AI showing before/after lesson preview</figcaption>
+<figcaption align="center">Figure 4: Example tutorial on auto-generating lessons with AI showing before/after lesson preview</figcaption>
 
 ---
 
