@@ -80,8 +80,6 @@ Each section will be modular and accessible from a persistent navigation system 
 
 ## 4. Outline of All Documentation <a id="outline"></a>
 
-## 4. Documentation Components <a id="documentation-components"></a>
-
 ### 4.1 User Guide <a id="user-guide"></a>
 
 The User Guide is the primary resource for navigating the full functionality of Mindsmith. It is designed for both new users and experienced instructional designers who want to explore all features of the platform. Each section will walk through workflows with annotated screenshots, contextual tips, and step-by-step breakdowns. The guide will be modular and searchable for quick access to specific tools.
